@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* Header and navigation */
+
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* About me section */
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0;
+    justify-content: center;
+  }
+
+main {
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+article h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: #2a607c;
+    text-align: center;
+    margin: 20px 0;
+}
+
+main h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: #2a607c;
+    text-align: center;
+}
+
+article p {
+    margin: 75px 0 100px 20px;
+}
+
+/* Main Section (project images and links) */
+
+figure {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+img {
+    height: 250px;
+    width: 500px;
+}
+
+.first-project {
+    height: 500px;
+    width: 1000px;
+}
+
+figure h3 {
+    text-align: center;
+    color: #2a607c;
+}
+
+figure p {
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 2px;
+}
+
+article img {
+    float: left;
+    width: 200px;
+    height: 150px;
+    position: relative;
+    right: 20px;
+}
+
+/* Contact Me Section */
+
+footer {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+footer h2 {
+    display: inline-block;
+    font-size: 36px;
+}
+
+footer ul {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    list-style-type: none;
+}
+
+footer ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
